@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+    color: #302929;
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header_conteiner{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.logo{
+    width: 183px;
+    height: 62px;
+}
+.menu{
+    display: flex;
+    min-width: 350px;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact{
+    display: flex;
+    width: 391px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.phone{
+    font-weight: 700;
+}
+.contact_phone{
+    display: flex;
+    align-items: center;
+}
+.leng{
+    display: flex;
+    align-items: center;
+    
+}
+.btn-acount{
+    background: #FFA800;
+    width: 140px;
+    height: 35px;
+    border-radius: 30px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+.btn-text{
+    margin-right: 23px;
+}
